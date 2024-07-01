@@ -12,17 +12,17 @@ URL:        https://github.com/MarkOlsonMN/Crowdfunding_ETL
 ## Code Source/Location within this Repo  
 ReadMe : &nbsp;Crowdfunding_ETL/README.md  
   
-Screenshots (folder containing pgAdmin screenshots) :&nbsp;&nbsp;Crowdfunding_ETL/PostgreSQL_pgAdmin_Screenshots  
+ERD Diagram and pgAdmin Screenshots (screenshot folder) :&nbsp;&nbsp;Crowdfunding_ETL/PostgreSQL_pgAdmin_Screenshots/  
 
 Project Files:  
-&nbsp;&nbsp;&nbsp;&nbsp;Jupyter Notebook (code) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/ETL_Mini_Project_MOlson_JPpieper.ipynb  
-&nbsp;&nbsp;&nbsp;&nbsp;Database Schema (sql) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/crowdfunding_db_schema.sql  
-&nbsp;&nbsp;&nbsp;&nbsp;Generated Analysis Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/campaign.csv  
-&nbsp;&nbsp;&nbsp;&nbsp;Generated Analysis Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/category.csv  
-&nbsp;&nbsp;&nbsp;&nbsp;Generated Analysis Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/contacts.csv  
-&nbsp;&nbsp;&nbsp;&nbsp;Generated Analysis Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/subcategory.csv  
-&nbsp;&nbsp;&nbsp;&nbsp;Starting Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/contacts.xlsx  
-&nbsp;&nbsp;&nbsp;&nbsp;Starting Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/crowdfunding.xlsx  
+&nbsp;&nbsp;&nbsp;&nbsp;Jupyter Notebook (Python code) :&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/ETL_Mini_Project_MOlson_JPpieper.ipynb  
+&nbsp;&nbsp;&nbsp;&nbsp;Database Schema (SQL script) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/crowdfunding_db_schema.sql  
+&nbsp;&nbsp;&nbsp;&nbsp;Generated Analysis Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/campaign.csv  
+&nbsp;&nbsp;&nbsp;&nbsp;Generated Analysis Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/category.csv  
+&nbsp;&nbsp;&nbsp;&nbsp;Generated Analysis Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/contacts.csv  
+&nbsp;&nbsp;&nbsp;&nbsp;Generated Analysis Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/subcategory.csv  
+&nbsp;&nbsp;&nbsp;&nbsp;Starting Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/contacts.xlsx  
+&nbsp;&nbsp;&nbsp;&nbsp;Starting Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/crowdfunding.xlsx  
 &nbsp;&nbsp;  
 &nbsp;&nbsp;  
 ## Original Project Description Notes:  
