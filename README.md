@@ -1,5 +1,29 @@
-# Crowdfunding_ETL
-Project 2 - Jim P , Mark O
+# README - Crowdfunding_ETL  
+  
+## Project 2  
+Class:      U of M Data Analytics and Visualization Boot Camp , Spring 2024  
+Students:   Mark Olson, Jim Pieper  
+Professor:  Thomas Bogue  ,  Assisted by Jordan Tompkins  
+Date:       06/24/2024  
+  
+## Location of this Repro (Public)  
+URL:        https://github.com/MarkOlsonMN/Crowdfunding_ETL  
+  
+## Code Source/Location within this Repo  
+ReadMe : &nbsp;Crowdfunding_ETL/README.md  
+  
+UK Food Standards Agency ...  
+&nbsp;&nbsp;&nbsp;&nbsp;Jupyter Notebook (code) :&nbsp;&nbsp;Crowdfunding_ETL/ETL_Mini_Project_MOlson_JPpieper.ipynb  
+&nbsp;&nbsp;&nbsp;&nbsp;Database (sql) :&nbsp;&nbsp;attributed to course solution, Crowdfunding_ETL/crowdfunding_db_schema_MOson_JPieper.sql  
+&nbsp;&nbsp;&nbsp;&nbsp;Generated Analysis Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/campaign.csv  
+&nbsp;&nbsp;&nbsp;&nbsp;Generated Analysis Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/category.csv  
+&nbsp;&nbsp;&nbsp;&nbsp;Generated Analysis Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/contacts.csv  
+&nbsp;&nbsp;&nbsp;&nbsp;Generated Analysis Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/subcategory.csv  
+&nbsp;&nbsp;&nbsp;&nbsp;Starting Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/contacts.xlsx  
+&nbsp;&nbsp;&nbsp;&nbsp;Starting Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/crowdfunding.xlsx
+&nbsp;&nbsp;  
+&nbsp;&nbsp;  
+## Original Project Description Notes:  
 Project 2
 Due Monday by 11:59pm Points 100 Submitting a text entry box or a website url
 For the ETL mini project, you will work with a partner to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After you transform the data, you'll create four CSV files and use the CSV file data to create an ERD and a table schema. Finally, you’ll upload the CSV file data into a Postgres database.
