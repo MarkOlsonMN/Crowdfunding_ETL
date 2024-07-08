@@ -25,6 +25,91 @@ Project Files:
 &nbsp;&nbsp;&nbsp;&nbsp;Starting Data (data) :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crowdfunding_ETL/Resources/crowdfunding.xlsx  
 &nbsp;&nbsp;  
 &nbsp;&nbsp;  
+## PostgreSQL Database Creation Instructions:
+
+The final section of this project involves creating a PostgreSQL Database,
+and populating it using the CSV file data that was exported in earlier sections of the project.
+Below are the steps taken to accomplish this final section of the project.  
+
+<pre>
+Database and Table Creation:
+-----------------------------
+1.) Open the "pgAdmin" tool and create a database named "Project_2".
+2.) Find the newly created "Project_2" database in the left-hand explorer panel and expand that part of the tree.
+3.) Right-click on "Project_2" and select "Query Tool" from the drop-down menu.
+4.) When the Query window appears, select the "folder" icon near the top of window
+    which will launch an open-file dialogue ... find and load the schema file named "crowdfunding_db_schema.sql".
+        ( FYI: "crowdfunding_db_schema.sql" is the exported output from the ERD diagram creation step ... 
+               in which the "quickdatabasediagrams.com" website was used to evaluate the structure
+               of the 4 csv files exported earlier in the project ... thus creating an ERD diagram.
+               Here is a related screenshot: "PostgreSQL_pgAdmin_Screenshots/ERD_Database_Diagram.png" )
+5.) In the Query window , find the loaded schema SQL script and highlight the 4 "CREATE TABLE" commands,
+    as well as the 3 "ALTER TABLE" commands.
+6.) Run the selected highlighted SQL commands by pressing the "play" icon near top of the Query window.
+7.) Verify the 4 tables were created sucessfully by expanding the tree in the left panel
+    under "Project_2"/"Schemas"/"Tables".
+    The following 4 tables should appear ... campaign, category, contacts, subcategory.
+9.) Verify the 4 tables were created sucessfully using SQL ...
+    Highlight each of the following lines of SQL script, one at a time, in the Query window ...
+          select * from campaign;
+          select * from category;
+          select * from contacts;
+          select * from subcategory;
+    ... and then press the "play" icon near top of the Query window to view the current table contents
+    for each table.
+    As expected, all 4 tables exist, but are currently empty.
+
+ ( FYI: Here is a related screenshot:
+       "PostgreSQL_pgAdmin_Screenshots/pgAdmin_1__created_empty_tables_from_schema.png" )
+
+
+Import CSV File Data Into Database Tables:
+-------------------------------------------
+10.) *** Due to foreign key relationships , the last file to be imported must be the "campaign" CSV data file. ***
+     So, a suggested order to use for importing all the CSV file data would be ...
+         1.) Resources/category.csv
+         2.) Resources/subcategory.csv
+         3.) Resources/contacts.csv
+         4.) Resources/campaign.csv
+11.) In the left-hand tree panel, under "Project_2"/"Schemas"/"Tables", find each of the four tables.
+     Right-click on a table, select "Import/Export Data" from the drop-down menu, and do the following ...
+      A.) On the "General" tab ...
+            - verify "Import/Export" selection is set to "Import"
+            - verify "Filename" selection is set to the appropriate csv file
+               (found in "Resources" folder) for the particular table
+            - verify "Format" selection is set to "csv"
+      B.) On the "Options" tab ...   
+            - verify "Header" selection is switched to ON position
+      C.) Click "OK" at lower right-hand corner of Import window to run the import process.
+      D.) Verify that table loads succesfully, by observing green tinted pop-up window stating "Process completed".
+
+ ( FYI: Here are some related screenshots:
+       "PostgreSQL_pgAdmin_Screenshots/pgAdmin_2__manual_import_table_data_proceedure.png"
+       "PostgreSQL_pgAdmin_Screenshots/pgAdmin_3__import_table_result_success.png" )
+
+
+Display Final Database Table Data:
+-----------------------------------
+12.) Display the resulting database tables after the import process has been completed.
+     Verify the 4 tables have been populated sucessfully by using SQL ...
+     Highlight each of the following lines of SQL script, one at a time, in the Query window ...
+          select * from campaign;
+          select * from category;
+          select * from contacts;
+          select * from subcategory;
+    ... and then press the "play" icon near top of the Query window to view the current table contents
+    for each table.
+    As expected, all 4 tables exist, and each table is now populated with the intended data.
+
+ ( FYI: Here are some related screenshots:
+     "PostgreSQL_pgAdmin_Screenshots/pgAdmin_4a__campaign_table__data.png"
+     "PostgreSQL_pgAdmin_Screenshots/pgAdmin_4b__category_table__data.png"
+     "PostgreSQL_pgAdmin_Screenshots/pgAdmin_4c__contacts_table__data.png"
+     "PostgreSQL_pgAdmin_Screenshots/pgAdmin_4d__subcategory_table__data.png" )
+</pre>
+
+&nbsp;&nbsp;  
+&nbsp;&nbsp;  
 ## Original Project Description Notes:  
 Project 2
 Due Monday by 11:59pm Points 100 Submitting a text entry box or a website url
